@@ -1,0 +1,7 @@
+source_id,source_name,url,method,expected_role
+petrolimex_official_e10,Petrolimex official E10 RON95-V announcement,https://www.petrolimex.com.vn/ndi/thong-cao-bao-chi/petrolimex-thong-bao-gia-ban-le-xang-sinh-hoc-e10-ron-95-v-tu-24-gio-00-phut-ngay-12-5-2026.html,web_scraping_official_html_and_image_fallback,Official Vietnam enterprise E10 price
+vietnam_fuel_prices_kaggle,Kaggle Weekly Fuel Prices in Vietnam,https://www.kaggle.com/datasets/suthcong/fuel-prices-in-vietnam,kaggle_input_dataset,Historical Vietnam Petrolimex and PVOIL prices
+moit_e10_policy,Vietnam Ministry of Industry and Trade E10 policy articles,https://moit.gov.vn/tin-tuc/phat-trien-nang-luong/bo-cong-thuong-thong-tin-ve-van-de-su-dung-xang-sinh-hoc-e10.html,web_scraping_policy_text,Policy explanation for Vietnam E10 transition
+worldbank_global_fuel_prices,World Bank Global Fuel Prices Database,https://datacatalog.worldbank.org/search/dataset/0066829/global-fuel-prices-database,public_xlsx_download,International fuel price comparison
+malaysia_open_data_fuelprice,Malaysia Open Data fuel prices,https://storage.data.gov.my/commodities/fuelprice.csv,public_csv_download,International regional comparison fallback
+germany_petrol_station_kaggle_optional,German petrol station data - Kaggle optional,https://www.kaggle.com/datasets/oles04/petrol-station-germany,kaggle_input_dataset_optional,International E10 reference from Germany

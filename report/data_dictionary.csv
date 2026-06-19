@@ -1,0 +1,24 @@
+column_name,data_type,description
+row_id,integer,Unique row identifier
+company,character,Company or data provider
+country,character,Country of fuel price observation
+product,character,Fuel product name
+product_normalized,character,Lowercase normalized product name
+fuel_family,character,"Detected fuel family such as E10, E5, RON95+, Diesel"
+region,character,Region or price area
+effective_datetime,POSIXct,Effective datetime of the price observation
+year,numeric,Year extracted from effective datetime
+month,numeric,Month extracted from effective datetime
+day,integer,Day extracted from effective datetime
+price_local_per_litre,numeric,Fuel price in local currency per litre or listed source unit
+currency,character,Currency code
+unit,character,Measurement unit
+delta_local_per_litre,numeric,Price change compared with prior adjustment if available
+has_delta,logical,Whether delta is available
+is_e10,logical,Whether fuel product is E10
+is_e5,logical,Whether fuel product is E5
+is_diesel,logical,Whether fuel product is diesel
+price_band,character,Price band used for simple segmentation
+source_name,character,Name of the source
+source_url,character,URL of the source
+extraction_method,character,Extraction method

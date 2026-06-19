@@ -1,0 +1,15 @@
+metric,value
+n_rows,5281
+n_columns,23
+n_missing_price,0
+n_duplicate_rows,0
+n_countries,2
+n_companies,3
+n_products,30
+n_sources,3
+n_e10_rows,136
+n_diesel_rows,1973
+n_numeric_columns,6
+n_categorical_columns,16
+meets_min_1000_rows,1
+meets_min_10_columns,1

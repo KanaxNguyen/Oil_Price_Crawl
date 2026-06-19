@@ -1,0 +1,10 @@
+step,source_name,source_url,ok,rows,note,collected_at
+petrolimex_collect,Petrolimex official E10 RON95-V announcement,https://www.petrolimex.com.vn/ndi/thong-cao-bao-chi/petrolimex-thong-bao-gia-ban-le-xang-sinh-hoc-e10-ron-95-v-tu-24-gio-00-phut-ngay-12-5-2026.html,TRUE,2,Official article downloaded; E10 RON95-V prices stored using official image fallback.,2026-06-02 22:13:49.656961
+policy_collect,MOIT E10 usage policy explanation,https://moit.gov.vn/tin-tuc/phat-trien-nang-luong/bo-cong-thuong-thong-tin-ve-van-de-su-dung-xang-sinh-hoc-e10.html,TRUE,1,Policy page downloaded and text extracted.,2026-06-02 22:13:50.349607
+policy_collect,MOIT E10 national transition article,https://moit.gov.vn/tin-tuc/xang-sinh-hoc-e10-hien-thuc-hoa-chu-truong-lon-cua-dang-nha-nuoc.html,TRUE,1,Policy page downloaded and text extracted.,2026-06-02 22:13:50.923824
+policy_collect,MOIT E10 handbook,https://moit.gov.vn/tin-tuc/cam-nang-su-dung-xang-e10.html,TRUE,1,Policy page downloaded and text extracted.,2026-06-02 22:13:51.349062
+policy_collect,Government E10 implementation article,https://baochinhphu.vn/tu-hom-nay-1-6-2026-xang-e10-chinh-thuc-trien-khai-tren-toan-quoc-102260601090033139.htm,TRUE,1,Policy page downloaded and text extracted.,2026-06-02 22:13:51.838359
+vietnam_kaggle_collect,Kaggle Weekly Fuel Prices in Vietnam,https://www.kaggle.com/datasets/suthcong/fuel-prices-in-vietnam,TRUE,3357,"Loaded files: Petrolimex_oilprice.csv, PVoil_oilprice.csv",2026-06-02 22:13:52.191061
+worldbank_collect,World Bank Global Fuel Prices Database,https://datacatalogfiles.worldbank.org/ddh-published/0066829/DR0095290/Global_Fuel_Prices_Database.xlsx,TRUE,0,XLSX downloaded. Raw rows: 2397 | standardized rows: 0,2026-06-02 22:14:05.591652
+malaysia_collect,Malaysia Open Data fuel prices,https://storage.data.gov.my/commodities/fuelprice.csv,TRUE,1922,CSV downloaded. Standardized rows: 1922,2026-06-02 22:14:06.256526
+germany_kaggle_collect,German petrol station data - Kaggle optional,https://www.kaggle.com/datasets/oles04/petrol-station-germany,TRUE,0,Loaded file: aggregated2014.csv | standardized rows: 0,2026-06-02 22:14:06.586666
